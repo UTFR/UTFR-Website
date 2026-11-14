@@ -139,6 +139,8 @@ const historyData = [
   },
   { year: "UT24", title: "Driverless debut", link: "/UT24", image: UT24Cutout },
   { year: "UT25", title: "Grit, speed, and technical breakthroughs", link: "/UT25", image: 'https://ik.imagekit.io/utfroutreach/UT25/UT25_Cutout.png' },
+  // TODO: add a UT26 cutout image once one is uploaded
+  { year: "UT26", title: "Michigan to Europe", link: "/UT26" },
 ];
 
 const History = () => {
