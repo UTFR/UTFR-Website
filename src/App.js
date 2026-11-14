@@ -3,10 +3,10 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import History from "./components/History";
 import Countdown from "./components/Countdown";
-import Team2026 from "./components/Team2026";
+import Team2027 from "./components/Team2027";
 import HomeCarousel from "./components/HomeCarousel";
 // import SponsorshipFooter from "./components/SponsorshipFooter";
 import JoinUs from "./components/JoinUs";
@@ -56,47 +56,418 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route path="/" element={<><Navbar /><Home /><About /><Countdown countdownTimestampMS={1781582400000}/><HomeCarousel /><Footer /></>} />
-          <Route path="/team" element={<><Navbar /><Team2026 /><Footer /></>} />
-          <Route path="/history" element={<><Navbar /><History /></>} />
-          <Route path="/joinUs" element={<><Navbar /><JoinUs /><Footer /></>} />
-          <Route path="/sponsors" element={<><Navbar /><Sponsors /><Footer /></>} />
-          <Route path="/shootout" element={<><ShootoutNavbar /><Shootout /><Footer /></>} />
-          <Route path="/blog" element={<><Navbar /><Blog /><Footer /></>} />
-          <Route path="/1997" element={<><Navbar /><TeamPage1997 /><Footer /></>} />
-          <Route path="/1998" element={<><Navbar /><TeamPage1998 /><Footer /></>} />
-          <Route path="/UT99" element={<><Navbar /><UT99 /><Footer /></>} />
-          <Route path="/UT00" element={<><Navbar /><UT00 /><Footer /></>} />
-          <Route path="/UT01" element={<><Navbar /><UT01 /><Footer /></>} />
-          <Route path="/UT02" element={<><Navbar /><UT02 /><Footer /></>} />
-          <Route path="/UT03" element={<><Navbar /><UT03 /><Footer /></>} />
-          <Route path="/UT04" element={<><Navbar /><UT04 /><Footer /></>} />
-          <Route path="/UT05" element={<><Navbar /><UT05 /><Footer /></>} />
-          <Route path="/UT06" element={<><Navbar /><UT06 /><Footer /></>} />
-          <Route path="/UT07" element={<><Navbar /><UT07 /><Footer /></>} />
-          <Route path="/UT08" element={<><Navbar /><UT08 /><Footer /></>} />
-          <Route path="/UT09" element={<><Navbar /><UT09 /><Footer /></>} />
-          <Route path="/UT10" element={<><Navbar /><UT10 /><Footer /></>} />
-          <Route path="/UT11" element={<><Navbar /><UT11 /><Footer /></>} />
-          <Route path="/UT12" element={<><Navbar /><UT12 /><Footer /></>} />
-          <Route path="/UT13" element={<><Navbar /><UT13 /><Footer /></>} />
-          <Route path="/UT14" element={<><Navbar /><UT14 /><Footer /></>} />
-          <Route path="/UT15" element={<><Navbar /><UT15 /><Footer /></>} />
-          <Route path="/UT16" element={<><Navbar /><UT16 /><Footer /></>} />
-          <Route path="/UT17" element={<><Navbar /><UT17 /><Footer /></>} />
-          <Route path="/UT18" element={<><Navbar /><UT18 /><Footer /></>} />
-          <Route path="/UT19" element={<><Navbar /><UT19 /><Footer /></>} />
-          <Route path="/UT20" element={<><Navbar /><UT20 /><Footer /></>} />
-          <Route path="/UT21" element={<><Navbar /><UT21 /><Footer /></>} />
-          <Route path="/UT22" element={<><Navbar /><UT22 /><Footer /></>} />
-          <Route path="/UT23" element={<><Navbar /><UT23 /><Footer /></>} />
-          <Route path="/UT24" element={<><Navbar /><UT24 /><Footer /></>} />
-          <Route path="/UT25" element={<><Navbar /><UT25 /><Footer /></>} />
-          <Route path="/UT26" element={<><Navbar /><UT26 /><Footer /></>} />
-          <Route path="/lilybearingblog" element={<><Navbar /><LilyBearingBlog /><Footer /></>} />
-          <Route path="/octoberissue2024" element={<><Navbar /><OctoberIssue2024 /><Footer /></>} />
-          <Route path="/decemberissue2024" element={<><Navbar /><DecemberIssue2024 /><Footer /></>} />
-          <Route path="/marchissue2025" element={<><Navbar /><MarchIssue2025 /><Footer /></>} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Navbar />
+                <Home />
+                <About />
+                <Countdown countdownTimestampMS={1781582400000} />
+                <HomeCarousel />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/team"
+            element={
+              <>
+                <Navbar />
+                <Team2027 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/history"
+            element={
+              <>
+                <Navbar />
+                <History />
+              </>
+            }
+          />
+          <Route
+            path="/joinUs"
+            element={
+              <>
+                <Navbar />
+                <JoinUs />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/sponsors"
+            element={
+              <>
+                <Navbar />
+                <Sponsors />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/shootout"
+            element={
+              <>
+                <ShootoutNavbar />
+                <Shootout />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/blog"
+            element={
+              <>
+                <Navbar />
+                <Blog />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/1997"
+            element={
+              <>
+                <Navbar />
+                <TeamPage1997 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/1998"
+            element={
+              <>
+                <Navbar />
+                <TeamPage1998 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT99"
+            element={
+              <>
+                <Navbar />
+                <UT99 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT00"
+            element={
+              <>
+                <Navbar />
+                <UT00 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT01"
+            element={
+              <>
+                <Navbar />
+                <UT01 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT02"
+            element={
+              <>
+                <Navbar />
+                <UT02 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT03"
+            element={
+              <>
+                <Navbar />
+                <UT03 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT04"
+            element={
+              <>
+                <Navbar />
+                <UT04 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT05"
+            element={
+              <>
+                <Navbar />
+                <UT05 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT06"
+            element={
+              <>
+                <Navbar />
+                <UT06 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT07"
+            element={
+              <>
+                <Navbar />
+                <UT07 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT08"
+            element={
+              <>
+                <Navbar />
+                <UT08 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT09"
+            element={
+              <>
+                <Navbar />
+                <UT09 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT10"
+            element={
+              <>
+                <Navbar />
+                <UT10 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT11"
+            element={
+              <>
+                <Navbar />
+                <UT11 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT12"
+            element={
+              <>
+                <Navbar />
+                <UT12 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT13"
+            element={
+              <>
+                <Navbar />
+                <UT13 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT14"
+            element={
+              <>
+                <Navbar />
+                <UT14 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT15"
+            element={
+              <>
+                <Navbar />
+                <UT15 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT16"
+            element={
+              <>
+                <Navbar />
+                <UT16 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT17"
+            element={
+              <>
+                <Navbar />
+                <UT17 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT18"
+            element={
+              <>
+                <Navbar />
+                <UT18 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT19"
+            element={
+              <>
+                <Navbar />
+                <UT19 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT20"
+            element={
+              <>
+                <Navbar />
+                <UT20 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT21"
+            element={
+              <>
+                <Navbar />
+                <UT21 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT22"
+            element={
+              <>
+                <Navbar />
+                <UT22 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT23"
+            element={
+              <>
+                <Navbar />
+                <UT23 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT24"
+            element={
+              <>
+                <Navbar />
+                <UT24 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT25"
+            element={
+              <>
+                <Navbar />
+                <UT25 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/UT26"
+            element={
+              <>
+                <Navbar />
+                <UT26 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/lilybearingblog"
+            element={
+              <>
+                <Navbar />
+                <LilyBearingBlog />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/octoberissue2024"
+            element={
+              <>
+                <Navbar />
+                <OctoberIssue2024 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/decemberissue2024"
+            element={
+              <>
+                <Navbar />
+                <DecemberIssue2024 />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/marchissue2025"
+            element={
+              <>
+                <Navbar />
+                <MarchIssue2025 />
+                <Footer />
+              </>
+            }
+          />
         </Routes>
       </Router>
     </div>
