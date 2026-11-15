@@ -33,6 +33,7 @@ import UT21Cutout from "../assets/HistoricCarPhotos/UT21/UT21-Cutout.png";
 import UT22Cutout from "../assets/HistoricCarPhotos/UT22/UT22-Cutout.png";
 import UT23Cutout from "../assets/HistoricCarPhotos/UT23/UT23-Cutout.png";
 import UT24Cutout from "../assets/HistoricCarPhotos/UT24/UT24-Cutout.png";
+import UT26Cutout from "../assets/HistoricCarPhotos/UT26/ut26_side_view.png";
 
 const historyData = [
   { year: "1997", title: "Team was founded", link: "/1997", image: null },
@@ -139,6 +140,7 @@ const historyData = [
   },
   { year: "UT24", title: "Driverless debut", link: "/UT24", image: UT24Cutout },
   { year: "UT25", title: "Grit, speed, and technical breakthroughs", link: "/UT25", image: 'https://ik.imagekit.io/utfroutreach/UT25/UT25_Cutout.png' },
+  { year: "UT26", title: "Michigan to Europe", link: "/UT26", image: UT26Cutout },
 ];
 
 const History = () => {
