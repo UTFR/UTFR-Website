@@ -2,6 +2,7 @@ import GoToTop from "./GoToTop"
 import { Fade } from "react-awesome-reveal";
 import DiamondSponsorCard from "./DiamondSponsorCard";
 import SponsorLogos from "./SponsorLogos";
+import SponsorshipPackage from "../assets/Sponsors/Package/Sponsorship Package 2026-27-compressed.pdf";
 
 const urlEndpoint = 'https://ik.imagekit.io/utfroutreach/'
 const urlEndpointUT26 = 'https://ik.imagekit.io/utfroutreach/UT26/'
@@ -485,7 +486,7 @@ const Sponsors = () => {
             <p className='flex justify-center text-center text-lg px-10 py-5'>Our sponsors and community partners are vital to our success. The organizations listed on this page support our team with a variety of monetary, product, and service contributions to our team. 
             Since 1998, the University of Toronto Formula Racing Team has enjoyed great success in both Europe and North America, all thanks to the help of our sponsors and community partners. We depend on the products and services offered by these generous businesses and individuals in order to accomplish our goals every year. In return, we thank them with all the publicity we can offer on our car, at our public appearances, and online. We’ve worked with a variety of supporters to draw attention to our partnership, and we continue to work hard to make our partnerships mutually beneficial.</p>
             <div className='flex justify-center gap-x-5'>
-                <a href="https://ik.imagekit.io/utfroutreach/UT26/UTFR_Sponsorship_Package_2026.pdf" target="_blank" rel="noreferrer"><button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'>View Our Sponsorship Package</button></a>
+                <a href={SponsorshipPackage} target="_blank" rel="noreferrer"><button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'>View Our Sponsorship Package</button></a>
                 <a href="https://www.gofundme.com/f/support-utfrs-road-to-michigan-germany" target="_blank" rel="noreferrer"><button className='r4 text-black group border-2 px-6 py-3 my-2 transition duration-200 hover:bg-[#0190cd] hover:text-white hover:border-[#0190cd]'>Donate</button></a>
             </div>
             </Fade>
