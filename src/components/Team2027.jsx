@@ -205,7 +205,7 @@ const dvLeads = [
     imageUrl: Sam_Dankner,
     linkedinUrl: "https://www.linkedin.com/in/samueldankner/",
     title: "Perception Lead",
-    program: "Eng Sci 2T7 + PEY",
+    program: "Mech 2T9 + PEY",
   },
   {
     name: "Alex Zhang",
