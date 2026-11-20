@@ -9,6 +9,7 @@ import Andrea_Cao from "../assets/Headshots2027/Andrea_Cao.jpg";
 import Andrei_Berzin from "../assets/Headshots2027/Andrei_Berzin.jpg";
 import Andy_Lee from "../assets/Headshots2027/Andy_Lee.jpg";
 import Avery_Lor from "../assets/Headshots2027/Avery_Lor.jpg";
+import Ayaan_Pathan from "../assets/Headshots2027/Ayaan_Pathan.jpg";
 import Emily_Wang from "../assets/Headshots2027/Emily_Wang.jpg";
 import Eric_Chen from "../assets/Headshots2027/Eric_Chen.jpg";
 import Eric_Lyu from "../assets/Headshots2027/Eric_Lyu.jpg";
@@ -227,6 +228,13 @@ const dvLeads = [
     linkedinUrl: "https://www.linkedin.com/in/markpirner/",
     title: "Recruitment Lead",
     program: "CE 2T7",
+  },
+  {
+    name: "Ayaan Pathan",
+    imageUrl: Ayaan_Pathan,
+    linkedinUrl: "https://www.linkedin.com/in/ayaan-path/",
+    title: "Controls Lead",
+    program: "ECE 2T6+PEY",
   },
 ];
 
